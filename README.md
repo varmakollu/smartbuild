@@ -1,39 +1,42 @@
-# Smart Building Energy Optimization through Machine Learning
-Machine learning is revolutionizing how we manage energy in smart buildings, offering unprecedented opportunities to reduce consumption while maintaining comfort. Think of it as having a digital brain that learns your building's patterns and makes intelligent decisions 24/7.
+# Smart Building Energy Optimization with Machine Learning
 
-## **Core ML Approaches for Energy Optimization**
+## Overview
+This project implements a machine learning framework to optimize energy consumption in smart buildings. Using synthetic and real-world-inspired data, the system predicts energy demand and recommends optimizations to reduce consumption while maintaining occupant comfort.
 
-### **Random Forest: The Champion**
+## Motivation
+Energy-efficient buildings are crucial to sustainability goals and cost savings. This project harnesses machine learning techniques to model complex energy use patterns and integrate real-time IoT data for dynamic energy management.
 
-Random Forest emerged as the top performer with **93.33% accuracy**, making it ideal for energy prediction tasks. This algorithm excels because it can handle the complex, non-linear relationships typical in building energy systems. It's particularly valuable for identifying which factors most impact energy consumption - occupancy ranked as the most important feature at 81% importance.
+## Features
+- Synthetic dataset generation simulating building operational and environmental conditions
+- Multiple ML models: Random Forest, Neural Networks, and time series forecasting
+- Real-time energy consumption prediction and scenario-based optimization
+- IoT sensor data integration for smart building system control
+- Model performance evaluation and feature importance analysis
 
-### **Neural Networks: The Pattern Recognizer**
+## Getting Started
 
-Neural networks achieved **90.57% accuracy** and excel at capturing intricate patterns in energy data. They're especially powerful when you have large datasets and complex interactions between variables like temperature, occupancy, and time-of-day patterns.
+### Prerequisites
+- Python 3.8+
+- Recommended packages in `requirements.txt`
 
-### **LSTM Networks: The Time Series Expert**
+### Installation
+```
+pip install -r requirements.txt
+```
 
-LSTM (Long Short-Term Memory) networks are specifically designed for time series forecasting, making them perfect for predicting future energy consumption. Research shows they can achieve **R² scores of 0.97** when properly configured with historical energy data, occupancy patterns, and weather conditions.
+### Running the Project
+```
+python smart_building_energy_optimization.py
+```
 
-<img width="500" height="350" alt="mae" src="https://github.com/user-attachments/assets/049a4020-f219-4d8b-bc43-018b8de49469" />
+## Usage
+1. Generate or load building energy dataset  
+2. Train ML models and evaluate performance  
+3. Use the best model for real-time energy optimization  
+4. Integrate with IoT sensor streams for live recommendations
 
-## **Popular Datasets for Development**
-
-### **UCI Energy Efficiency Dataset**
-
-This benchmark dataset contains 768 samples with 8 building characteristics. It's perfect for getting started and includes features like:
-
-- Relative compactness and surface area
-- Wall area and roof area
-- Overall height and orientation
-- Glazing area and distribution
-
-
-### **Real-World Building Data**
-
-For advanced applications, consider datasets like the Cambridge University Estates archive or the smart company facility dataset, which provides 6 years of real operational data including:
-
-- Energy consumption from 72 meters
-- Weather data from on-site stations
-- HVAC operational data
-- Photovoltaic system production data
+## Results Summary
+- Random Forest achieved best R² score (~93%) predicting building energy consumption
+- Occupancy, outdoor temperature, and hour of day are key predictive features
+- Real-time optimization scenarios demonstrated up to 6.5% potential energy savings
+- IoT integration enables adaptive environmental and system control for efficiency
