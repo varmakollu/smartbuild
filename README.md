@@ -3,9 +3,6 @@
 ## Overview
 This project implements a machine learning framework to optimize energy consumption in smart buildings. Using synthetic and real-world-inspired data, the system predicts energy demand and recommends optimizations to reduce consumption while maintaining occupant comfort.
 
-## Motivation
-Energy-efficient buildings are crucial to sustainability goals and cost savings. This project harnesses machine learning techniques to model complex energy use patterns and integrate real-time IoT data for dynamic energy management.
-
 ## Features
 - Synthetic dataset generation simulating building operational and environmental conditions
 - Multiple ML models: Random Forest, Neural Networks, and time series forecasting
