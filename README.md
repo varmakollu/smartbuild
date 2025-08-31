@@ -37,3 +37,25 @@ python smart_building_energy_optimization.py
 - Occupancy, outdoor temperature, and hour of day are key predictive features
 - Real-time optimization scenarios demonstrated up to 6.5% potential energy savings
 - IoT integration enables adaptive environmental and system control for efficiency
+
+## UCI Energy Efficiency Dataset
+This benchmark dataset contains 768 samples with 8 building characteristics. It's perfect for getting started and includes features like:
+
+- Relative compactness and surface area
+
+- Wall area and roof area
+
+- Overall height and orientation
+
+- Glazing area and distribution
+
+## Real-World Building Data
+For advanced applications, consider datasets like the Cambridge University Estates archive or the smart company facility dataset, which provides 6 years of real operational data including:
+
+- Energy consumption from 72 meters
+
+- Weather data from on-site stations
+
+- HVAC operational data
+
+- Photovoltaic system production data
