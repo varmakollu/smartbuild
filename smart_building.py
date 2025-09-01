@@ -27,7 +27,7 @@ y_pred = model.predict(X_test)
 
 # Evaluate
 print("R2 Score:", r2_score(y_test, y_pred))
-print("RMSE:", mean_squared_error(y_test, y_pred, squared=False))
+print("RMSE:", mean_squared_error(y_test, y_pred) ** 0.5)
 
 # Feature Importance
 import matplotlib.pyplot as plt
