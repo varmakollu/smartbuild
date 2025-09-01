@@ -1,4 +1,4 @@
-# Smart Building Energy Optimization using Machine Learning
+# Smart Building Energy Optimization
 
 ## Project Overview
 This project focuses on optimizing energy consumption in smart buildings by leveraging machine learning models trained on real-world building energy datasets. The goal is to reduce energy usage while maintaining occupant comfort through predictive analytics and IoT sensor data.
@@ -32,17 +32,22 @@ Primary datasets used:
    ```
 
 ## Usage
-- Prepare datasets by running the data preprocessing scripts in the `/data` folder.
-- Train models using scripts in `/models` folder.
-- Run prediction and optimization scripts in `/optimization` folder.
-- Visualize results using notebooks in `/notebooks`.
 
-## Project Structure
-- `/data`: Datasets and preprocessing scripts
-- `/models`: Model training and evaluation scripts
-- `/optimization`: Real-time prediction and control algorithms
-- `/notebooks`: Jupyter notebooks for exploratory data analysis and visualization
-- `requirements.txt`: Project dependencies
+- Prepare datasets in the datasets folder
+
+Run data preprocessing scripts:
+```
+python src/data_preprocessing.py
+```
+Train machine learning models:
+```
+python src/train_model.py
+```
+Evaluate model results:
+```
+python src/evaluate_model.py
+```
+Use models for real-time energy prediction and optimization
 
 ## Results
 Models achieve high accuracy in predicting building energy consumption, enabling up to 40% energy savings through optimized control strategies.
