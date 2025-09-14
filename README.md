@@ -14,8 +14,7 @@ This project focuses on optimizing energy consumption in smart buildings by leve
 Primary datasets used:
 - UCI Energy Efficiency Dataset
 - Appliances Energy Prediction Dataset
-- IoT Smart Building Sensor Data from Kaggle
-
+- 
 ## Installation
 1. Clone the repository:
    ```
